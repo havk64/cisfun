@@ -1,5 +1,6 @@
 #include <stdlib.h>
 
+/* Measuring the lenght of string */
 int len(char *s)
 {
     int i = 0;
@@ -9,6 +10,7 @@ int len(char *s)
     return i;
 }
 
+/* Function that concatenates two strings.*/
 char *string_nconcat(char *s1, char __attribute__((unused)) *s2, int n)
 {
     char *s;
