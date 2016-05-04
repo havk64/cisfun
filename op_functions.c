@@ -1,3 +1,4 @@
+/*Functions to arithmetic calculus */
 int op_add(int a, int b)
 {
     return (a + b);

@@ -1,6 +1,6 @@
 #include "my_functions.h"
 #define NULL (void*)0
-
+/* Function to define the control flow */
 int (*get_op_func(char c))(int, int)
 {
     int i;
