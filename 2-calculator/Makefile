@@ -6,6 +6,6 @@ OBJECTS := $(SRC:.c=.o)
 all: 2-calculator
 
 2-calculator: $(OBJECTS)
-        $(CC) $(OBJECTS) -o 2-calculator
+	$(CC) $(OBJECTS) -o 2-calculator
 
 $(OBJECTS): $(SRC)
